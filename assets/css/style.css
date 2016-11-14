@@ -1,0 +1,61 @@
+body {
+	margin: 0 auto;
+	background-image: url(images/background.jpg);
+	margin-left: 1%;
+}
+
+h1 {
+	height: 80px;
+	width: 250px;
+	background: orange;
+	padding-top: 20px;
+	color: white;
+}
+
+#instructions {
+	height: 310px;
+	width: 340px;
+	background: #e5c4a6;
+	padding: 20px;
+	color: green;
+}
+
+.container {
+	height: 100px;
+	width: 205px;
+	background: #62B28B;
+	margin-top: 20px;
+	text-align: center;
+	float: left;
+	color: red;
+}
+
+#score {
+	height: 100px;
+	width: 75px;
+	float: left;
+	background: turquoise;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+#crystals {
+	clear: both;
+	margin-bottom: 20px;	
+}
+
+#yourTotalScore {
+	height: 30px;
+	width: 205px;
+	background: #249289;
+	color: white;
+}
+
+#yourScore {
+	height: 100px;
+	width: 205px;
+	background: #249289;
+	margin-top: 20px;
+	color: white;
+}

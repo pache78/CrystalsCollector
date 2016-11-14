@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CrystalsCollector Game</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	
+</head>
+<body>
+	
+	<h1>CrystalsCollector!</h1>
+
+		<!--game rules-->
+		<div id="instructions"> 
+			<p>You will be given a random number at the start of the game.</p>
+			<p>By clicking on the cyrstals below, a specific amount of points will be added to your score.</p>
+			<p>You win the game by matching the total score to the random number.</p>
+			<p>You will not see the value of each crystal until its clicked on.</p>
+			<p>Everytime the game begins, the values of each crystal change.</p>
+		</div>
+
+			<!--random number generated-->
+			<div class="container">  
+				<h3><div id="randomnum"><span id="value">0</span></div></h3>
+			</div>
+				
+				<!-- score kept-->
+				<div id="score">  
+					<h3 id="status"></h3>
+					<h4>wins: <span id="win">0</span></h4>
+					<h4>losses: <span id="losses">0</span></h4>
+				</div>
+
+
+			
+			<!-- crystal images-->
+			<div id="crystals">
+				<button type="button" id="red"><img src="images/red.png" alt="red crystal" style="width: 100px; height:100px;"></button>
+				<button type="button" id="blue"><img src="images/blue.png" alt="blue crystal" style="width: 100px; height:100px;"></button>
+				<button type="button" id="yellow"><img src="images/yellow.png" alt="yellow crystal" style="width: 100px; height:100px;"></button>
+				<button type="button" id="green"><img src="images/green.png" alt="green crystal" style="width: 100px; height:100px;"></button>
+			</div>
+
+			<!--total score-->
+			<div id="totalScore">
+				<h3 id="yourTotalScore">Your total score is: <span id="yourScore">0</span></h3>
+			</div>
+
+			
+
+			<!--jQuery-->
+			<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+			<script type="text/javascript" scr="game.js"></script>
+				
+		
+
+
+</body>
+</html>
